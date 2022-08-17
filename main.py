@@ -2,7 +2,7 @@ from vosk import Model, KaldiRecognizer
 import os
 import pyaudio
 
-model = Model("model")
+model = Model('model')
 rec = KaldiRecognizer(model, 16000)  # 3 zeros ou 4
 
 p = pyaudio.PyAudio()
