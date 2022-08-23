@@ -1,0 +1,5 @@
+open|chrome
+weather|getWeather
+open|notepad
+time|getTime
+time|getDate
